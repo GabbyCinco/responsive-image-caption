@@ -11,8 +11,13 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: "Georgia", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h2 {
+  font-family: "Denk One", sans-serif;
 }
