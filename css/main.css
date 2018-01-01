@@ -52,6 +52,11 @@ p{
 
 @media only screen and (min-width: 38em) {
 
+html {
+  font-size: 100%;
+  line-height: 1.3;
+}
+
 figure {
   position: relative;
 }
@@ -85,8 +90,12 @@ p {
 
 @media only screen and (min-width: 60em) {
 
+html {
+  font-size: 110%;
+  line-height: 1.4;
+}
+
 figcaption {
-  font-size: 1.5rem;
   width: 17em;
   padding-left: 2rem;
   right: 1em;
@@ -104,6 +113,11 @@ p {
 }
 
 @media only screen and (min-width: 90em) {
+
+html {
+  font-size: 120%;
+  line-height: 1.5;
+}
 
 figcaption {
   right: 1.4em;
