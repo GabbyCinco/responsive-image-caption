@@ -36,10 +36,18 @@ figure {
 
 figcaption {
   text-align: left;
-  padding-left: 1.3em;
+  padding: 0 1em 0 1.4em;
   font-size: 100%;
 }
 
 p {
   font-family: "Georgia", serif;
+}
+
+@media only screen and {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
 }
