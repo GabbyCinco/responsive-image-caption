@@ -11,8 +11,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Denk One', sans-serif;
-  line-height: 1.5;
+  font-family: "Denk One", sans-serif;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
@@ -30,4 +30,16 @@ body {
 
 figure {
   margin: 0;
+  background-color: #e2e2e2;
+  padding-bottom: .5em;
+}
+
+figcaption {
+  text-align: left;
+  padding-left: 1.3em;
+  font-size: 100%;
+}
+
+p {
+  font-family: "Georgia", serif;
 }
